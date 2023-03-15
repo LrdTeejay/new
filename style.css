@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#header{
+    display: flex;
+    align-items: center;
+}
+.right{
+    padding: 20px;
+    margin-right: 2em;
+    font-family:sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+li{
+    padding: 15px;
+}
+.left{
+    margin-left: auto;
+}
+.left.ul{
+    align-items: center;
+}
+button{
+    margin-left: 20px;
+    /* width: 80px;
+    height: 30px; */
+    padding: 13px;
+    border-radius: 8px;
+    background-color: white;
+}
+button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: whitesmoke;
+}
+button:active{
+    opacity: 0.5;
+}
+.login{
+    margin-top: 12px;
+}
+.body{
+    margin: 10% 10% 30%;
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    margin-bottom: 20px;
+    letter-spacing: .5px;
+    font-size: 3em;
+}
+.p{
+    margin-bottom: 25px;
+    line-height: 25px;
+}
+.more{
+    background-color: black;
+    color: whitesmoke;
+    letter-spacing: 2px;
+    margin-left: 2px;
+}
+.more:hover{
+    cursor: pointer;
+}
+.more:active{
+    opacity: 0.5;
+}
+.con{
+    display: flex;
+}
+img{
+    height: 70vh;
+}
+.image{
+    margin: 10% 0%;
+}
+
+@media screen and (max-width:650px){
+    #header{
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+    }
+    li{
+        margin: 0 -5px;
+    }
+    .center{
+    margin-left: -50px;
+    }
+    .con{
+        display: inline;
+    }
+    .left{
+        margin-left: 7px;
+    }
+    button{
+        margin-left: -15px;
+    }
+    .body{
+        margin-bottom: 10px;
+    }
+    img{
+        width: 100vw;
+    }
+}
